@@ -1,0 +1,87 @@
+/* Reset CSS moderno */
+/* Establece márgenes y rellenos a 0 y box-sizing como border-box para todos los elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elimina los estilos por defecto de las listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Elimina el subrayado de los enlaces y hereda el color del texto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Establece valores base para elementos de formulario */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Elimina estilos por defecto de los botones */
+button {
+  cursor: pointer;
+}
+
+/* Elimina las animaciones para personas que las tienen desactivadas */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Normaliza el tamaño de fuente y la altura de línea */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Elimina el margen en body */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Evita desbordamiento de imágenes */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Normaliza los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Elimina el espacio extra en las tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Resetea los elementos interactivos */
+:focus {
+  outline: 0;
+}

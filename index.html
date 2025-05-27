@@ -3,52 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="./reset.css">
     <title>Mi Primer Sitio Web</title>
 </head>
 <body>
     <header>
-        <h1>Venta de Motos</h1>
-        <span>Inicio</span>
-        <span>- Catalogo</span>
+        <h1 class="tituloh1">Venta de Motos</h1>
+        <div id="banner">
+            <img src="./Motos.jpg" id="imgBanner">
+        </div>
+        <div id="buttonsHomePanel">
+            <div class="buttonsHome">
+                <a href="./index.html">Inicio</a>
+            </div>
+            <div class="buttonsHome">
+                <a href="./contacto.html"> Contacto</a>
+            </div>
+        </div>
     </header>
     <main>
-        <img src="./Motos.jpg">
         <section>
-            <h2>Compra tu primera Moto con nosotros!</h2>
-            <h2>Creditos y planes de financiamiento!</h2>
-        <hr/>
-            <article>
-                <h3>Yamaha</h3>
-                <p>Modelos</p>
-                <ul>
-                    <li>Deportivas</li>
-                    <li>Naked</li>
-                    <li>Touring</li>
-                </ul>
-            </article>
-            <article>
-            <h3>Honda</h3>
-                <p>Modelos</p>
-                <ul>
-                    <li>Deportivas</li>
-                    <li>Naked</li>
-                    <li>Touring</li>
-                </ul>
-            </article>
-            <article>
-            <h3>Kawasaki</h3>
-                <p>Modelos</p>
-                <ul>
-                    <li>Deportivas</li>
-                    <li>Naked</li>
-                    <li>Touring</li>
-                </ul>
-            </article>
-        <hr/>
+            <div id="tituloh2Panel">
+                <h2 class="tituloh2">Compra tu primera Moto con nosotros!</h2>
+                <h2 class="tituloh2">Creditos y planes de financiamiento!</h2>
+            </div>
+            <div id="marcasPanel">
+                <article class="modelos">
+                    <h3 class="tituloh3">Yamaha</h3>
+                    <p class="marcas">Modelos</p>
+                    <ul>
+                        <li>Deportivas</li>
+                        <li>Naked</li>
+                        <li>Touring</li>
+                    </ul>
+                </article>
+                <article class="modelos">
+                    <h3 class="tituloh3">Honda</h3>
+                    <p class="marcas">Modelos</p>
+                    <ul>
+                        <li>Deportivas</li>
+                        <li>Naked</li>
+                        <li>Touring</li>
+                    </ul>
+                </article>
+                <article class="modelos">
+                    <h3 class="tituloh3">Kawasaki</h3>
+                    <p class="marcas">Modelos</p>
+                    <ul>
+                        <li>Deportivas</li>
+                        <li>Naked</li>
+                        <li>Touring</li>
+                    </ul>
+                </article>
+            </div>
         </section>   
     </main>
     <footer>
-        <a href="./contacto.html">Contacto</a>
     </footer>
 </body>
 </html>

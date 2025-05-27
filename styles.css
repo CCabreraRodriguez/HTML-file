@@ -1,0 +1,104 @@
+header{
+    background-color: gray;
+}
+
+body{
+    background-color: white;
+}
+
+.tituloh1{
+    color: white;
+    width: 30vw;
+    font-size: 5em;
+    margin:auto;
+    padding: 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgBanner{
+    border: 4px solid lightgray;
+    width: 60vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsHome{
+    color: white;
+    margin: auto;
+    border-radius: 30%;
+    transition: 0.5s;
+}
+
+.buttonsHome:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+#buttonsHomePanel{
+    width: 10vw;
+    margin: auto;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tituloh2{
+    width: 30vw;
+    color: white;
+    margin: auto;
+    font-size: 2em;
+    padding: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+#tituloh2Panel{
+    background-color: red;
+    margin: auto;
+    padding: 0.1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tituloh3{
+    font-size: 2em;
+    color: black;
+    margin: auto;
+    padding: 0.1em;
+}
+
+.modelos{
+    border: 2px solid red;
+    border-radius: 10%;
+    margin: auto;
+    width: 8vw;
+}
+
+.marcas{
+    font-size: 1.5em;
+    color: black;
+    margin: auto;
+    padding: 0.1em;
+}
+
+#marcasPanel{
+    width: 85vw;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
